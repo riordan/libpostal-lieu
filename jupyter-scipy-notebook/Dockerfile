@@ -39,6 +39,6 @@ RUN $USER
 RUN pip install postal
 
 # Install Lieu
-RUN pip install git+https://github.com/openvenues/lieu
+RUN pip install git+https://github.com/riordan/lieu.git
 
 USER $NB_USER
